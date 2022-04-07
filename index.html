@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity=""
+      crossorigin="anonymous"
+    ></script>
+    <script src="load.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <title>My CV Website</title>
+  </head>
+
+  <body onload="draw()">
+    <canvas id="bg"></canvas>
+    <main id="content">
+      <div class="right"></div>
+      <div class="left">
+        <h1>
+          <div class="hex moved"></div>
+          <span>About me</span>
+        </h1>
+        <div class="subtext" id="main">
+          <p>
+            My name is Alfian Rudiyanto. I am 20 years old, currently I study at
+            the University of Muhammadiyah Malang majoring in informatics.
+          </p>
+          <p>
+            I aspire to be a programmer and developer. for that I learned
+            several programming languages such as flutter, java, kotlin and php.
+            I also like to try about what I don't know. (as long as I can still
+            understand about me trying it.)
+          </p>
+        </div>
+        <h2>
+          <div class="hex"></div>
+          <span>Skills</span>
+        </h2>
+        <div class="subtext coll">
+          good understanding of object-oriented programming and how the
+          structure of a code works. proficient in flutter and java although i
+          need to know a lot. made significant breakthroughs in javascript, php
+          and flutter. I also learned adobe photoshop to make an application
+          background or application icon.
+        </div>
+        <h2>
+          <div class="hex"></div>
+          <span>Hobbies & Interests</span>
+        </h2>
+        <div class="subtext coll">
+          make android application and ios project (unprofessional). likes
+          listening to music. love to play online games
+        </div>
+        <h2>
+          <div class="hex"></div>
+          <span>Currently Working On</span>
+        </h2>
+        <div class="subtext coll">
+          freelance work making mockups of android or ios applications when the
+          opportunity arises, but I still focus on college first to increase my
+          knowledge
+        </div>
+
+        <h2>
+          <div class="hex"></div>
+          <span>Find Me</span>
+        </h2>
+        <div class="subtext coll"><a>Github</a> | <a>Facebook</a></div>
+
+        <h2>
+          <div class="hex"></div>
+          <span>Contact Me</span>
+        </h2>
+        <div class="subtext coll">
+          <ul>
+            <li>Phone: +62 89622834896</li>
+            <li>E-mail: <a>alfianrudiyanto1@webmail.umm.ac.id</a></li>
+            <!-- <li>Discord: <a>Laighlin#0371</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </main>
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="wave" id="one">
+      <path
+        d="M-13.36,88.98 C168.85,182.73 276.72,-73.84 506.31,79.10 L500.00,150.00 L0.00,150.00 Z"
+      ></path>
+    </svg>
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="wave" id="two">
+      <path
+        d="M-13.36,88.98 C168.85,182.73 276.72,-73.84 506.31,79.10 L500.00,150.00 L0.00,150.00 Z"
+      ></path>
+    </svg>
+    <div id="hex-holder">
+      <div class="hex" id="uno"></div>
+      <div class="hex" id="dos"></div>
+      <div class="hex" id="tres"></div>
+    </div>
+  </body>
+</html>
